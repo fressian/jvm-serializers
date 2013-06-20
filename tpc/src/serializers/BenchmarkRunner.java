@@ -45,6 +45,7 @@ public class BenchmarkRunner extends MediaItemBenchmark
 //        Scala.register(groups);
 // hessian, kryo and wobly are Java object serializations
         Hessian.register(groups);
+        Fressian.register(groups);
         Kryo.register(groups);
         Wobly.register(groups);
         JBossSerialization.register(groups);

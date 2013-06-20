@@ -8,6 +8,7 @@ kryo-manual
 msgpack
 wobly
 wobly-compact
+fressian
 hessian
 jboss-serialization
 jboss-marshalling-river
